@@ -1,3 +1,6 @@
+import random
+
+
 def load_text():
     with open("the_little_prince.txt", "r") as file:
         return file.readlines()
@@ -26,11 +29,22 @@ def creating_dictionary(tokens):
     return word_dictionary
 
 
+def markov_chain(word_dictionary):
+    first_word = random.choice(list(word_dictionary.keys()))
+    generated_text = [first_word.capitalize()]
+    for i in range(199):
+        next_words = word_dictionary[first_word]
+        first_word = random.choice(next_words)
+        generated_text.append(first_word)
+    return ' '.join(generated_text)
+
+
 def main():
     text = load_text()
     cleared_text = clear_text(text)
     tokenized = tokenize(cleared_text)
-    return creating_dictionary(tokenized)
+    word_dictionary = creating_dictionary(tokenized)
+    print(markov_chain(word_dictionary))
 
 
 main()
