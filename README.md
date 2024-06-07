@@ -75,8 +75,7 @@ your questions.
 
 **Task description:**  
 [Download the csv file here]
-(https://www.kaggle.com/datasets/lovishbansal123/sales-
-of-a-supermarket)
+(https://www.kaggle.com/datasets/lovishbansal123/sales-of-a-supermarket)
 
 - Data loading:  
     Load the provided dataset into a *Pandas DataFrame*.
