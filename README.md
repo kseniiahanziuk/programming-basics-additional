@@ -34,7 +34,7 @@ chain model for the task of text generation.
 
 # 3b1b1c: File editing task
 
-**Task description:**
+**Task description:**  
 You have been provided with a text file containing a list
 of student names along with their test scores. Your task
 is to read this file, perform some operations on the
@@ -52,57 +52,57 @@ Henry 85
 Ivy 78
 Jack 95
 ```
-- File Reading:
-  - Open the provided text file in read mode.
+- File Reading:  
+  - Open the provided text file in read mode.  
   - Read the contents of the file and store them in an
-  appropriate data structure.
-- Data Processing:
+  appropriate data structure.  
+- Data Processing:  
   - Split each line of the file into student name and
-  test score.
+  test score.  
   - Calculate the average score for each student.
-- File Writing:
+- File Writing:  
   - Open a new text file in write mode to store the
-  results.
+  results.  
   - Write the student names along with their average
-  scores to the new file.
+  scores to the new file.  
 
 
-# 3b1b1b: Data Analysis Using Pandas Task
+# 3b1b1b: Data Analysis Using Pandas Task  
 
 This time we will be working with a .csv dataset.
 You are free to consult pandas docs, stackoverflow for
 your questions.
 
-**Task description:**
+**Task description:**  
 [Download the csv file here]
 (https://www.kaggle.com/datasets/lovishbansal123/sales-
 of-a-supermarket)
 
-- Data loading:
+- Data loading:  
     Load the provided dataset into a *Pandas DataFrame*.
     inspect the first few rows of the DataFrame to
-    understand its structure.
-- Data cleaning:
+    understand its structure.  
+- Data cleaning:  
     Check for any missing values in the dataset and
     handle them appropriately (e.g., by dropping rows
     or filling missing values).
-    convert any relevant columns to appropriate data
-    types (e.g., dates, numerical values).
-- Data exploration:
+    Convert any relevant columns to appropriate data
+    types (e.g., dates, numerical values).  
+- Data exploration:  
     Calculate summary statistics for numerical columns
     such as total sales, average sales per month,
     maximum and minimum sales, etc.
-    explore categorical columns such as product
+    Explore categorical columns such as product
     categories, sales regions, etc., by counting unique
-    values and visualizing distributions.
-- Performance analysis:
+    values and visualizing distributions.  
+- Performance analysis:  
     Calculate additional metrics such as profit
     margins, sales growth rates, and sales
     contributions by product category or region.
     Identify top-performing products or regions based
-    on sales volume or revenue.
-- Hypothesis testing (optional):
+    on sales volume or revenue.  
+- Hypothesis testing (optional):  
     Formulate hypotheses about factors that may
     influence sales (e.g., promotional campaigns,
     seasonal effects) and perform statistical tests to
-    validate or refute them.
+    validate or refute them.  
