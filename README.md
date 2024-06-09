@@ -1,3 +1,13 @@
+**HONOR PLEDGE**
+I, Kseniia Hanziuk, fully aknowledge the consequences of
+academic misconduct.
+
+During my work, I:
+1. Did not receive any help
+2. Consulted following materials: https://en.wikipedia.org/wiki/Markov_chain (for 3b1b1a)
+
+
+
 # 3b1b1a: Simple Text Generation Task
 
 During this task you will be coding a fun little task
@@ -64,7 +74,10 @@ Jack 95
   - Open a new text file in write mode to store the
   results.  
   - Write the student names along with their average
-  scores to the new file.  
+  scores to the new file.
+Calculate additional statistics such as the highest and
+lowest scores, the overall class average, mode, etc..
+Write these results to the output file as well.
 
 
 # 3b1b1b: Data Analysis Using Pandas Task  
