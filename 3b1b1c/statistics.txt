@@ -1,0 +1,66 @@
+Student: Alice
+Average grade: 87.75
+Highest grade: 94
+Lowest grade: 82
+
+_________________________________________
+Student: Bob
+Average grade: 92.0
+Highest grade: 96
+Lowest grade: 88
+
+_________________________________________
+Student: Charlie
+Average grade: 74.25
+Highest grade: 80
+Lowest grade: 70
+
+_________________________________________
+Student: David
+Average grade: 80.0
+Highest grade: 82
+Lowest grade: 78
+
+_________________________________________
+Student: Emily
+Average grade: 95.5
+Highest grade: 100
+Lowest grade: 92
+
+_________________________________________
+Student: Frank
+Average grade: 91.25
+Highest grade: 95
+Lowest grade: 88
+
+_________________________________________
+Student: Grace
+Average grade: 70.75
+Highest grade: 75
+Lowest grade: 65
+
+_________________________________________
+Student: Henry
+Average grade: 88.75
+Highest grade: 92
+Lowest grade: 85
+
+_________________________________________
+Student: Ivy
+Average grade: 75.75
+Highest grade: 80
+Lowest grade: 72
+
+_________________________________________
+Student: Jack
+Average grade: 96.5
+Highest grade: 100
+Lowest grade: 94
+
+_________________________________________
+Group statistics:
+
+Average grade: 85.25
+Highest grade: 100
+Lowest grade: 65
+Mode: 90, 94, 80
